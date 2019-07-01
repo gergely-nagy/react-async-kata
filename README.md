@@ -9,7 +9,7 @@
 
 ## Megoldás:
 
-1. [Create React App](https://facebook.github.io/create-react-app/) segítségével projekt létrehozása és `.env` fájl létrehozása.
+1. [Create React App](https://facebook.github.io/create-react-app/) segítségével projekt létrehozása és `.env` fájl létrehozása. (`npx create-react-app async-app`)
 1. Repóban található `.env` fájl tartalmának átmásolása a lokális fájlba , HOST + PORT beállítása.
 1. Új `state`  (`movies: []`) létrehozása filmek tárolásához.
 1. Hozzáadni a  `componentDidMount()` metódust az App komponenshez. (https://reactjs.org/docs/react-component.html#componentdidmount)
